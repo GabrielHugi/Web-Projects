@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+.box {
+    width:auto;
+    height: auto;
+    border: 2px solid rgba(7, 14, 2, 0.531);
+    padding: 2px;
+    margin: 2px;
+    background-color: rgba(14, 173, 252, 0.142);
+    border-radius: 10px;
+  }
+  
+  li.menu {
+    display: inline-flex;
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(189, 186, 186);
+  }
+
+  p {
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+      font-weight: 600;
+      text-align: justify;
+      text-indent: 50px;
+      margin: 10px;
+  }
+  
+  body{
+  
+      background-color: rgb(238, 240, 255);
+      margin: 0;
+      padding: 0;
+  }
+  
+  h1 {
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+      font-weight: 900;
+      text-align: center;
+      text-indent: 0px;
+      font-size: 34px;
+  }
+  
+  h2 {
+      font-family: 'Courier New', Courier, monospace;
+      font-style: italic;
+      font-weight: 700;
+      text-align: center;
+      text-indent: 0px;
+      font-size: 30px;
+  }
+  
+  .daora {
+      font-weight: 900;
+      font-size: 20px;
+  
+  }
+  
+  .daora2 {
+      font-weight: 900;
+      font-size: 30px;
+      text-align:center;
+  
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .copyright {
+      font-size: 14px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .header {
+    width: 100%;
+    height:300px;
+    border: 0px solid rgba(7, 14, 2, 0.531);
+    padding: 0px;
+    margin: 0px;
+    background-image: url(open-field-2-3375182577.jpg);
+    outline: 0px;
+  }
+
+  div#menu {
+
+    padding: 0px; 
+    margin: 0px; 
+    font-size: 0px; 
+    width: fit-content;
+  }
+
+  div#menu ul{
+    padding: 0px; 
+    margin: 0px; 
+    font-size: 0px; 
+    width: fit-content;
+    
+  }
+
+  div#menu li {
+    padding: 4px;
+    font-size: 30px;
+    margin: 0px;
+    transition: 800ms;
+  }
+
+  div#menu li:hover {
+    font-size: 34px;
+    background-color: rgb(198, 198, 198);
+  }
+
+  div#menu a {
+    color: black; 
+    text-decoration: none;
+     margin: 0px; 
+     padding: 0px;
+  }
+
+  div#realmenu {
+    position: absolute;
+    top: 0%;
+  }
+
+  img#cool {
+    width: 50%;
+    transition: 1500ms;
+  }
+
+  img#cool:hover {
+    width: 55%;
+  }
+
+  img#cow {
+    transition: 1000ms;
+    
+  }
+  
+  img#cow:active {
+    animation:rotation 1s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+  
